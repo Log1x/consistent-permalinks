@@ -13,7 +13,7 @@ Consider these two URLs that point to the same page but differ in casing:
 
 Despite post slugs always being lowercase, WordPress will load the page with either URL as-is relying solely on the defined [`rel="canonical"`](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) `link` element for users and search engines to determine the original version of the URL.
 
-This plugin instead redirects such mismatched URLs to their intended canonical lowercase version, enhancing user experience and potentially improving SEO.
+This plugin instead redirects such mismatched URLs to their intended canonical lowercase version while preserving query parameters, enhancing user experience and potentially improving SEO.
 
 ## Requirements
 
