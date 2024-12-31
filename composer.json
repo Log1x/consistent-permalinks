@@ -1,0 +1,19 @@
+{
+  "name": "log1x/consistent-permalinks",
+  "type": "wordpress-plugin",
+  "description": "Enforce consistency in WordPress permalink casing for incoming requests.",
+  "keywords": ["wordpress", "wordpress-plugin"],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.19"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
