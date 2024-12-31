@@ -1,10 +1,17 @@
 {
   "name": "log1x/consistent-permalinks",
   "type": "wordpress-plugin",
+  "license": "MIT",
   "description": "Enforce consistency in WordPress permalink casing for incoming requests.",
+  "authors": [
+    {
+      "name": "Brandon Nifong",
+      "email": "brandon@tendency.me"
+    }
+  ],
   "keywords": ["wordpress", "wordpress-plugin"],
   "require": {
-    "php": ">=8.0"
+    "php": "^8.0"
   },
   "require-dev": {
     "laravel/pint": "^1.19"
